@@ -1,0 +1,11 @@
+[package]
+name = "Premade Player Characters"
+homepage = "https://www.nexusmods.com/morrowind/mods/55972"
+repository = "https://github.com/petethegoat/premade-player-characters"
+authors = ["Pete Goodfellow"]
+version = "0.3"
+
+[dependencies.mwse]
+buildnumber = 4304
+[dependencies.mods."Premade Player Characters"]
+plugin = "Premade Player Characters.esp"
